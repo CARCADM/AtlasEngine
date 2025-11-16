@@ -5,6 +5,7 @@
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_video.h>
 
+namespace renderer {
 class MainRenderLoop {
     SDL_GLContext renderTarget = SDL_GL_CreateContext(nullptr);
     std::vector<float> dynamicRenderObjects;
@@ -18,5 +19,7 @@ class MainRenderLoop {
     MainRenderLoop(MainRenderLoop &cRenderLoop);
     MainRenderLoop& operator=(MainRenderLoop &cRenderLoop);
 
+    // Updates every update in case you didn't know
     virtual inline void renderLoopUpdate();
 };
+}

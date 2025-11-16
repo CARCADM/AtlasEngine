@@ -1,8 +1,14 @@
 # ninja log v6
-18	292	7837575886422920	CMakeFiles/AtlasEngine.dir/Window/Window.cpp.obj	aa3d258b18cb07cd
-8	134	7849568133074494	build.ninja	2e360b978328630d
-15	494	7847065177222500	CMakeFiles/AtlasEngine.dir/Window/EventLoop.cpp.obj	29c0436fb8a016b7
-13	334	7847066778256563	CMakeFiles/AtlasEngine.dir/TestEntry.cpp.obj	ac42f2808c5a5d0f
-334	643	7847066781466568	bin/AtlasEngine.exe	a45737afe0f84f4
+17	307	7850339152881307	CMakeFiles/AtlasEngine.dir/Window/Window.cpp.obj	c37786e005dc3a96
+8	134	7850339352314366	build.ninja	2e360b978328630d
+19	521	7850339152911313	CMakeFiles/AtlasEngine.dir/Window/EventLoop.cpp.obj	19d953cba574a6f8
+15	376	7850282154154779	CMakeFiles/AtlasEngine.dir/TestEntry.cpp.obj	67db0aac703f652c
+1277	1952	7850232093428048	bin/AtlasEngine.exe	4039a33ced489a74
 242	321	7830649783394216	AtlasEngine.exe	8edd8f34b6c925b6
 16	23	7830674774816235	clean	5a3848bcb39b191c
+23	69	7850338852026482	CMakeFiles/AtlasEngine.dir/Renderer/MainRenderLoop.cpp.obj	223c5b904c8c6b76
+15	371	7850337135920752	CMakeFiles/AtlasEngine.dir/Util/Entity.cpp.obj	bafce72562f448a6
+18	348	7850339359075302	CMakeFiles/AtlasEngine.dir/TestEntry.cpp.obj	f64ca2ff6c0378
+3	362	7850339676952426	CMakeFiles/AtlasEngine.dir/Util/Entity.cpp.obj	c09b84e28337f82f
+15	311	7850344289435047	CMakeFiles/AtlasEngine.dir/Util/Entity.cpp.obj	c09b84e28337f82f
+311	615	7850344292384391	bin/AtlasEngine.exe	3d45f2aa80f02f1b

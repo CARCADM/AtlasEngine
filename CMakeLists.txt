@@ -24,6 +24,9 @@ PUBLIC
 target_include_directories(AtlasEngine 
 PRIVATE 
 ${CMAKE_SOURCE_DIR}/_dependencies
-${CMAKE_SOURCE_DIR})
+${CMAKE_SOURCE_DIR}/_dependencies/glad
+)
 
 add_subdirectory(${CMAKE_SOURCE_DIR}/Window)
+add_subdirectory(${CMAKE_SOURCE_DIR}/Renderer)
+add_subdirectory(${CMAKE_SOURCE_DIR}/Util)

@@ -1,37 +1,29 @@
 #pragma once
 
 #include <iostream>
-#include <vector>
-#include <Util/Component.hpp>
+#include <unordered_map>
+#include <Component.hpp>
 
-using namespace ECS;
+namespace ECS {
 class Entity {
-    static int globalID;
-    int id;
-    std::vector<Component> childComponents;
+    static unsigned int globalID;
+    unsigned int id;
+    std::unordered_map<Component_Type, Component> childComponents;
 
-    // Elipses!!!
-    template<typename... Component>
-    Entity(Component... components);
+    public:
+    // An entity can only hold one of each component type.
+    Entity();
 
-    /* 
-        This is a special function so bear with me here, since the programmer will only be working with Lua
-        We can take advantage of some pretty risky and dangerous pointer manipulation since it is all 
-        abstracted away anyways. So essentially how this is going to work is the add component class will create
-        a new instance of the component they wish to add that will be placed in this function, then on the functions
-        end, it will copy the component over to itself, and then delete the components original data, thus placing
-        the data only on the entity, and in a way "taking" the component from the user.
-
-        Returns: Whether the addition was a success.
-    */
-    bool addComponent(Component *componentToAdd);
+    // Returns: Whether the addition was a success.
+    bool addComponent(Component_Type &componentToAdd);
 
     // Returns: Whether the removal was successful.
-    bool removeComponent(Component &component);
+    bool removeComponent(Component_Type &component);
     // Returns: Whether the removal was successful.
     // TODO: replace int with a meaningful type
-    bool removeComponent(int ID);
+    bool removeComponent(Component_Type ID);
 
     // Returns: The desired component if one is attached, if there is not one, return -1
-    int getComponent(Component *componentToGet);
+    int getComponent(Component_Type &componentToGet);
 };
+}

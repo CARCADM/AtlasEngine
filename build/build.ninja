@@ -46,21 +46,33 @@ build cmake_object_order_depends_target_AtlasEngine: phony || .
 
 build CMakeFiles/AtlasEngine.dir/TestEntry.cpp.obj: CXX_COMPILER__AtlasEngine_unscanned_ C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/TestEntry.cpp || cmake_object_order_depends_target_AtlasEngine
   DEP_FILE = CMakeFiles\AtlasEngine.dir\TestEntry.cpp.obj.d
-  INCLUDES = -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/_dependencies" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine"
+  INCLUDES = -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/_dependencies" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/_dependencies/glad" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/Window" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/Renderer" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/Util"
   OBJECT_DIR = CMakeFiles\AtlasEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\AtlasEngine.dir
 
 build CMakeFiles/AtlasEngine.dir/Window/Window.cpp.obj: CXX_COMPILER__AtlasEngine_unscanned_ C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/Window/Window.cpp || cmake_object_order_depends_target_AtlasEngine
   DEP_FILE = CMakeFiles\AtlasEngine.dir\Window\Window.cpp.obj.d
-  INCLUDES = -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/_dependencies" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine"
+  INCLUDES = -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/_dependencies" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/_dependencies/glad" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/Window" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/Renderer" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/Util"
   OBJECT_DIR = CMakeFiles\AtlasEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\AtlasEngine.dir\Window
 
 build CMakeFiles/AtlasEngine.dir/Window/EventLoop.cpp.obj: CXX_COMPILER__AtlasEngine_unscanned_ C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/Window/EventLoop.cpp || cmake_object_order_depends_target_AtlasEngine
   DEP_FILE = CMakeFiles\AtlasEngine.dir\Window\EventLoop.cpp.obj.d
-  INCLUDES = -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/_dependencies" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine"
+  INCLUDES = -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/_dependencies" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/_dependencies/glad" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/Window" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/Renderer" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/Util"
   OBJECT_DIR = CMakeFiles\AtlasEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\AtlasEngine.dir\Window
+
+build CMakeFiles/AtlasEngine.dir/Renderer/MainRenderLoop.cpp.obj: CXX_COMPILER__AtlasEngine_unscanned_ C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/Renderer/MainRenderLoop.cpp || cmake_object_order_depends_target_AtlasEngine
+  DEP_FILE = CMakeFiles\AtlasEngine.dir\Renderer\MainRenderLoop.cpp.obj.d
+  INCLUDES = -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/_dependencies" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/_dependencies/glad" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/Window" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/Renderer" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/Util"
+  OBJECT_DIR = CMakeFiles\AtlasEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles\AtlasEngine.dir\Renderer
+
+build CMakeFiles/AtlasEngine.dir/Util/Entity.cpp.obj: CXX_COMPILER__AtlasEngine_unscanned_ C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/Util/Entity.cpp || cmake_object_order_depends_target_AtlasEngine
+  DEP_FILE = CMakeFiles\AtlasEngine.dir\Util\Entity.cpp.obj.d
+  INCLUDES = -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/_dependencies" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/_dependencies/glad" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/Window" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/Renderer" -I"C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/Util"
+  OBJECT_DIR = CMakeFiles\AtlasEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles\AtlasEngine.dir\Util
 
 
 # =============================================================================
@@ -70,7 +82,7 @@ build CMakeFiles/AtlasEngine.dir/Window/EventLoop.cpp.obj: CXX_COMPILER__AtlasEn
 #############################################
 # Link the executable bin\AtlasEngine.exe
 
-build bin/AtlasEngine.exe: CXX_EXECUTABLE_LINKER__AtlasEngine_ CMakeFiles/AtlasEngine.dir/TestEntry.cpp.obj CMakeFiles/AtlasEngine.dir/Window/Window.cpp.obj CMakeFiles/AtlasEngine.dir/Window/EventLoop.cpp.obj | C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/_dependencies/libSDL3.a
+build bin/AtlasEngine.exe: CXX_EXECUTABLE_LINKER__AtlasEngine_ CMakeFiles/AtlasEngine.dir/TestEntry.cpp.obj CMakeFiles/AtlasEngine.dir/Window/Window.cpp.obj CMakeFiles/AtlasEngine.dir/Window/EventLoop.cpp.obj CMakeFiles/AtlasEngine.dir/Renderer/MainRenderLoop.cpp.obj CMakeFiles/AtlasEngine.dir/Util/Entity.cpp.obj | C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/_dependencies/libSDL3.a
   LINK_LIBRARIES = "C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/_dependencies/libSDL3.a"  -lopengl32  -lwinmm  -lsetupapi  -limm32  -lversion  -lcfgmgr32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\AtlasEngine.dir
   POST_BUILD = cd .
@@ -131,6 +143,62 @@ build Window/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build Window/rebuild_cache: phony Window/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build Renderer/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\mottc\OneDrive\Desktop\VS Files\AtlasEngine\build\Renderer" && D:\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Renderer/edit_cache: phony Renderer/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Renderer/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\mottc\OneDrive\Desktop\VS Files\AtlasEngine\build\Renderer" && D:\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\mottc\OneDrive\Desktop\VS Files\AtlasEngine" -B"C:\Users\mottc\OneDrive\Desktop\VS Files\AtlasEngine\build""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Renderer/rebuild_cache: phony Renderer/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build Util/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\mottc\OneDrive\Desktop\VS Files\AtlasEngine\build\Util" && D:\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Util/edit_cache: phony Util/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Util/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\mottc\OneDrive\Desktop\VS Files\AtlasEngine\build\Util" && D:\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\mottc\OneDrive\Desktop\VS Files\AtlasEngine" -B"C:\Users\mottc\OneDrive\Desktop\VS Files\AtlasEngine\build""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Util/rebuild_cache: phony Util/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build AtlasEngine: phony bin/AtlasEngine.exe
@@ -145,7 +213,21 @@ build AtlasEngine.exe: phony bin/AtlasEngine.exe
 #############################################
 # Folder: C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/build
 
-build codegen: phony Window/codegen
+build codegen: phony Window/codegen Renderer/codegen Util/codegen
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/build/Renderer
+
+build Renderer/codegen: phony
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/build/Util
+
+build Util/codegen: phony
 
 # =============================================================================
 
@@ -159,7 +241,21 @@ build Window/codegen: phony
 #############################################
 # Folder: C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/build
 
-build all: phony bin/AtlasEngine.exe Window/all
+build all: phony bin/AtlasEngine.exe Window/all Renderer/all Util/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/build/Renderer
+
+build Renderer/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/build/Util
+
+build Util/all: phony
 
 # =============================================================================
 
@@ -175,14 +271,14 @@ build Window/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/CMakeLists.txt C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/Window/CMakeLists.txt CMakeCache.txt CMakeFiles/3.31.5/CMakeCCompiler.cmake CMakeFiles/3.31.5/CMakeCXXCompiler.cmake CMakeFiles/3.31.5/CMakeRCCompiler.cmake CMakeFiles/3.31.5/CMakeSystem.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeCInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeRCInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake D$:/mingw64/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake D$:/mingw64/share/cmake-3.31/Modules/Compiler/GNU.cmake D$:/mingw64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-C.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-CXX.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-C.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-CXX.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-C.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-windres.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/CMakeLists.txt C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/Renderer/CMakeLists.txt C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/Util/CMakeLists.txt C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/Window/CMakeLists.txt CMakeCache.txt CMakeFiles/3.31.5/CMakeCCompiler.cmake CMakeFiles/3.31.5/CMakeCXXCompiler.cmake CMakeFiles/3.31.5/CMakeRCCompiler.cmake CMakeFiles/3.31.5/CMakeSystem.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeCInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeRCInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake D$:/mingw64/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake D$:/mingw64/share/cmake-3.31/Modules/Compiler/GNU.cmake D$:/mingw64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-C.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-CXX.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-C.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-CXX.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-C.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-windres.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/CMakeLists.txt C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/Window/CMakeLists.txt CMakeCache.txt CMakeFiles/3.31.5/CMakeCCompiler.cmake CMakeFiles/3.31.5/CMakeCXXCompiler.cmake CMakeFiles/3.31.5/CMakeRCCompiler.cmake CMakeFiles/3.31.5/CMakeSystem.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeCInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeRCInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake D$:/mingw64/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake D$:/mingw64/share/cmake-3.31/Modules/Compiler/GNU.cmake D$:/mingw64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-C.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-CXX.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-C.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-CXX.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-C.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-windres.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake: phony
+build C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/CMakeLists.txt C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/Renderer/CMakeLists.txt C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/Util/CMakeLists.txt C$:/Users/mottc/OneDrive/Desktop/VS$ Files/AtlasEngine/Window/CMakeLists.txt CMakeCache.txt CMakeFiles/3.31.5/CMakeCCompiler.cmake CMakeFiles/3.31.5/CMakeCXXCompiler.cmake CMakeFiles/3.31.5/CMakeRCCompiler.cmake CMakeFiles/3.31.5/CMakeSystem.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeCInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeRCInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake D$:/mingw64/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake D$:/mingw64/share/cmake-3.31/Modules/Compiler/GNU.cmake D$:/mingw64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-C.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-CXX.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-C.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-CXX.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-C.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows-windres.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/Windows.cmake D$:/mingw64/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

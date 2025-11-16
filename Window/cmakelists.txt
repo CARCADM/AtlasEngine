@@ -1,7 +1,6 @@
-target_include_directories(AtlasEngine 
-PRIVATE 
-${CMAKE_SOURCE_DIR}/_dependencies
-${CMAKE_SOURCE_DIR}
+target_include_directories(AtlasEngine
+PRIVATE
+${CMAKE_SOURCE_DIR}/Window
 )
 
 target_sources(AtlasEngine

@@ -1,6 +1,6 @@
 #include <iostream>
-#include <Window/Window.hpp>
-#include <Window/EventLoop.hpp>
+#include <Window.hpp>
+#include <EventLoop.hpp>
 #include <SDL3/SDL.h>
 
 using namespace window;

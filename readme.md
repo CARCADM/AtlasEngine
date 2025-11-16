@@ -1,3 +1,21 @@
+<style>
+h1 {
+    color:white;
+    font-weight:bold;
+}
+h2 {
+    color:FloralWhite;
+    font-weight:bold;
+}
+h3 h4 {
+    color:Gainsboro;
+    font-weight:600;
+}
+blockquote {
+    color:Silver;
+}
+</style>
+
 # Welcome to the Atlas Engine source code!
 
 This is the source code for Atlas Eninge, a C++ written
@@ -59,6 +77,18 @@ one off script could also act as an entry point for the actual project
 though I haven't even started to consider Lua integration to the game
 engine yet.
 
+## OpenGL and other reqirements
+
+We will be using OpenGL for the majority of the rendering paired with the common Open source library for renderering,
+SDL. On top of that, to make loading the OpenGL calls much easier, since it includes less boiler plate, we will also
+be using GLAD along with everything. The majority of the project is compiled using CMake with a sub-directory system.
+This will provide structure to the project and make CMake files much easier to debug. The CMake files are not auto
+generated and are written entirely by me.
+
+> Permalink to GLAD download: https://glad.dav1d.de/#language=c&specification=gl&api=gl%3D4.6&api=gles1%3Dnone&api=gles2%3Dnone&api=glsc2%3Dnone&profile=core&loader=on
+
+The above permalink describes what version and features of OpenGL I am taking advantage of.
+
 ## Project Overview
 
 ### Creating the neccessary subsystems:
@@ -67,6 +97,16 @@ There are two subsystems needed for the engine to work, the window class,
 and the renderer subsystems. The window class is a static class designated
 to creating the main game window, this mean the engine only suppourts one
 window.
+
+### Entity Component System!!!
+
+This is the most important part of the engine, as it makes the creation of complex and dynamic
+game objects actually possible while keeping my sanity and keeping the repo maintainible.
+The concept is simple in concept, every entity has a unique ID, entitys also have components
+attached to them. An entity is the same idea as a gameobject like in Unity. An entity for
+example "Player", might have a renderer component, a transform component, a texture component,
+ect. This system adds a lot of dynamic aspects to the engine, but is also wildly more complex
+because of a certain C++ concept known as **circular dependencies**.
 
 ### Adding major rendering features:
 
