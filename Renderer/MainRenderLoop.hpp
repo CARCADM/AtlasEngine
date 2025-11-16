@@ -12,7 +12,7 @@ class MainRenderLoop {
     public:
     void setRenderTargetWindow(SDL_Window *windowToTarget);
 
-    // Rule of 3
+    // Rule of 3 (Not 5)
     MainRenderLoop(SDL_Window *windowToTarget);
     ~MainRenderLoop();
     MainRenderLoop(MainRenderLoop &cRenderLoop);
