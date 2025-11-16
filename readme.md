@@ -1,21 +1,3 @@
-<style>
-h1 {
-    color:white;
-    font-weight:bold;
-}
-h2 {
-    color:FloralWhite;
-    font-weight:bold;
-}
-h3 h4 {
-    color:Gainsboro;
-    font-weight:600;
-}
-blockquote {
-    color:Silver;
-}
-</style>
-
 # Welcome to the Atlas Engine source code!
 
 This is the source code for Atlas Eninge, a C++ written

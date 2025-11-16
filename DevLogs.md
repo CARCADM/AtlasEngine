@@ -1,22 +1,3 @@
-<style>
-h1 {
-    color:Orchid;
-    font-weight:bold;
-}
-h2 {
-    color:Lime;
-    font-weight:bold;
-}
-h3 {
-    color:Cyan;
-    font-weight:bold;
-}
-h4 {
-    color:yellow;
-    font-weight:bold;
-}
-</style>
-
 # Atlas Engine Development Logs
 
 This is going to be used to keep track of Atlas Engine's development.
