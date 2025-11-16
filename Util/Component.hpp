@@ -10,7 +10,7 @@ enum Component_Type : unsigned char {
 
 // This is just an abstract struct to take advantage of polymorphism.
 struct Component {
-    Component();
+    Component() {}
     // Abstract things do be happening in here.
 };
 }

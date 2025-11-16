@@ -5,4 +5,6 @@ ${CMAKE_SOURCE_DIR}/Renderer
 
 target_sources(AtlasEngine
 PRIVATE
-${CMAKE_SOURCE_DIR}/Renderer/MainRenderLoop.cpp)
+${CMAKE_SOURCE_DIR}/Renderer/MainRenderLoop.cpp
+${CMAKE_SOURCE_DIR}/Renderer/RenderComponent.cpp
+)

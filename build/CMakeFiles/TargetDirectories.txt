@@ -1,9 +1,0 @@
-C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/build/CMakeFiles/AtlasEngine.dir
-C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/build/CMakeFiles/edit_cache.dir
-C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/build/CMakeFiles/rebuild_cache.dir
-C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/build/Window/CMakeFiles/edit_cache.dir
-C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/build/Window/CMakeFiles/rebuild_cache.dir
-C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/build/Renderer/CMakeFiles/edit_cache.dir
-C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/build/Renderer/CMakeFiles/rebuild_cache.dir
-C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/build/Util/CMakeFiles/edit_cache.dir
-C:/Users/mottc/OneDrive/Desktop/VS Files/AtlasEngine/build/Util/CMakeFiles/rebuild_cache.dir
