@@ -1,0 +1,10 @@
+target_include_directories(AtlasEngine 
+PRIVATE 
+${CMAKE_SOURCE_DIR}/_dependencies
+${CMAKE_SOURCE_DIR}
+)
+
+target_sources(AtlasEngine
+PRIVATE
+Window.cpp
+EventLoop.cpp)
