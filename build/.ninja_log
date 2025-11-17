@@ -1,0 +1,8 @@
+# ninja log v6
+10	58	7850385291640836	CMakeFiles/AtlasEngine.dir/Renderer/MainRenderLoop.cpp.obj	223c5b904c8c6b76
+13	291	7850385291660840	CMakeFiles/AtlasEngine.dir/Renderer/RenderComponent.cpp.obj	5bdcb3cabab4f264
+5	309	7850385291585769	CMakeFiles/AtlasEngine.dir/Window/Window.cpp.obj	c37786e005dc3a96
+2	407	7850385291555751	CMakeFiles/AtlasEngine.dir/TestEntry.cpp.obj	f64ca2ff6c0378
+15	419	7850385291690849	CMakeFiles/AtlasEngine.dir/Util/Entity.cpp.obj	c09b84e28337f82f
+7	536	7850385291610796	CMakeFiles/AtlasEngine.dir/Window/EventLoop.cpp.obj	19d953cba574a6f8
+536	943	7850385296901639	bin/AtlasEngine.exe	4ff414025531af51
