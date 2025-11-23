@@ -1,8 +1,19 @@
 # ninja log v6
-10	58	7850385291640836	CMakeFiles/AtlasEngine.dir/Renderer/MainRenderLoop.cpp.obj	223c5b904c8c6b76
-13	291	7850385291660840	CMakeFiles/AtlasEngine.dir/Renderer/RenderComponent.cpp.obj	5bdcb3cabab4f264
-5	309	7850385291585769	CMakeFiles/AtlasEngine.dir/Window/Window.cpp.obj	c37786e005dc3a96
-2	407	7850385291555751	CMakeFiles/AtlasEngine.dir/TestEntry.cpp.obj	f64ca2ff6c0378
-15	419	7850385291690849	CMakeFiles/AtlasEngine.dir/Util/Entity.cpp.obj	c09b84e28337f82f
-7	536	7850385291610796	CMakeFiles/AtlasEngine.dir/Window/EventLoop.cpp.obj	19d953cba574a6f8
-536	943	7850385296901639	bin/AtlasEngine.exe	4ff414025531af51
+15	380	7855618592468826	CMakeFiles/AtlasEngine.dir/Util/Entity.cpp.obj	ac5d81024131ebfe
+368	674	7855612802425001	bin/AtlasEngine.exe	3fb9eaf2597fa32b
+14	411	7855618156376141	CMakeFiles/AtlasEngine.dir/TestEntry.cpp.obj	37683c9407f46e6c
+23	566	7855553368367587	CMakeFiles/AtlasEngine.dir/Window/EventLoop.cpp.obj	720cb2b479ae189d
+20	346	7855553368347588	CMakeFiles/AtlasEngine.dir/Window/Window.cpp.obj	b688c27d77d17ae3
+34	517	7855621985527193	build.ninja	2e360b978328630d
+29	321	7855553368427591	CMakeFiles/AtlasEngine.dir/Renderer/RenderComponent.cpp.obj	7e81bc8d6cbcff62
+15	368	7855612798895015	CMakeFiles/AtlasEngine.dir/Renderer/RenderData.cpp.obj	1a4ab4d404215af4
+26	77	7855553368397598	CMakeFiles/AtlasEngine.dir/Renderer/MainRenderLoop.cpp.obj	2114f3619a1e4ba8
+18	653	7855553368317594	CMakeFiles/AtlasEngine.dir/_dependencies/glad/src/glad.c.obj	f8f59676cdf3cd08
+19	264	7855622008372235	CMakeFiles/AtlasEngine.dir/Util/Component.cpp.obj	eadb548f042792b0
+16	378	7855622008342224	CMakeFiles/AtlasEngine.dir/Util/Entity.cpp.obj	ac5d81024131ebfe
+379	683	7855622011972236	bin/AtlasEngine.exe	39d05f7aa7dfac7f
+86	1133	7855660657116530	CMakeFiles/AtlasEngine.dir/Util/Component.cpp.obj	eadb548f042792b0
+18	1142	7855660656438087	CMakeFiles/AtlasEngine.dir/TestEntry.cpp.obj	37683c9407f46e6c
+81	1167	7855660657066527	CMakeFiles/AtlasEngine.dir/Renderer/RenderData.cpp.obj	1a4ab4d404215af4
+84	1179	7855660657086532	CMakeFiles/AtlasEngine.dir/Util/Entity.cpp.obj	ac5d81024131ebfe
+1179	1797	7855660668046796	bin/AtlasEngine.exe	39d05f7aa7dfac7f

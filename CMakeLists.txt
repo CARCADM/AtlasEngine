@@ -8,7 +8,8 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/build/bin)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/build/bin)
 
 add_executable(AtlasEngine 
-TestEntry.cpp)
+TestEntry.cpp
+_dependencies/glad/src/glad.c)
 
 target_link_libraries(AtlasEngine
 PRIVATE
@@ -24,7 +25,7 @@ PUBLIC
 target_include_directories(AtlasEngine 
 PRIVATE 
 ${CMAKE_SOURCE_DIR}/_dependencies
-${CMAKE_SOURCE_DIR}/_dependencies/glad
+${CMAKE_SOURCE_DIR}/_dependencies/glad/include/glad
 )
 
 add_subdirectory(${CMAKE_SOURCE_DIR}/Window)

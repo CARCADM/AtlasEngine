@@ -8,7 +8,7 @@
 namespace renderer {
 class MainRenderLoop {
     SDL_GLContext renderTarget = SDL_GL_CreateContext(nullptr);
-    std::vector<float> dynamicRenderObjects;
+    std::vector<unsigned int> dynamicRenderVertexArrays;
 
     public:
     void setRenderTargetWindow(SDL_Window *windowToTarget);

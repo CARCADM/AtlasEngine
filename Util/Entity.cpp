@@ -6,12 +6,18 @@ Entity::Entity() {
     id = globalID;
     globalID += 1;
 }
+Entity::~Entity() {
+    for(const auto component : childComponents) {
+        delete component.second;
+    }
+    childComponents.clear();
+}
 
 bool Entity::addComponent(Component_Type componentToAdd) {
     try {
         switch (componentToAdd) {
             case RENDERER:
-                childComponents[componentToAdd] = renderer::RenderComponent();
+                childComponents[componentToAdd] = new ECS::RenderComponent();
                 break;
             default:
                 return false;
@@ -25,6 +31,7 @@ bool Entity::addComponent(Component_Type componentToAdd) {
 
 bool Entity::removeComponent(Component_Type componentToRemove) {
     try {
+        delete childComponents[componentToRemove];
         childComponents.erase(componentToRemove);
         return true;
     } catch (char* e) {
@@ -33,7 +40,7 @@ bool Entity::removeComponent(Component_Type componentToRemove) {
     }
 }
 
-Component& Entity::getComponent(Component_Type componentToGet) {
+Component* Entity::getComponent(Component_Type componentToGet) {
     return childComponents[componentToGet];
 }
 
